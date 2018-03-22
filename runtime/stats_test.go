@@ -5,7 +5,7 @@ import (
 
 	"github.com/stretchr/testify/assert"
 
-	"github.com/FreifunkBremen/yanic/data"
+	"github.com/FreifunkBremen/yanic/tree/master/data"
 )
 
 const TEST_SITE = "ffxx"

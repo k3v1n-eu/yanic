@@ -1,8 +1,8 @@
 package meshviewer
 
 import (
-	"github.com/FreifunkBremen/yanic/data"
-	"github.com/FreifunkBremen/yanic/lib/jsontime"
+	"github.com/FreifunkBremen/yanic/tree/master/data"
+	"github.com/FreifunkBremen/yanic/tree/master/lib/jsontime"
 )
 
 // Node struct
@@ -71,7 +71,7 @@ func NewStatistics(stats *data.Statistics, isOnline bool) *Statistics {
 	/* The Meshviewer could not handle absolute memory output
 	 * calc the used memory as a float which 100% equal 1.0
 	 * calc is coppied from node statuspage (look discussion:
-	 * https://github.com/FreifunkBremen/yanic/issues/35)
+	 * https://github.com/FreifunkBremen/yanic/tree/master/issues/35)
 	 */
 	if stats.Memory.Total > 0 {
 		usage := 1 - (float64(stats.Memory.Free)+float64(stats.Memory.Buffers)+float64(stats.Memory.Cached))/float64(stats.Memory.Total)

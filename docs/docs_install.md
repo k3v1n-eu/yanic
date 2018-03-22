@@ -29,7 +29,7 @@ go get -v -u github.com/FreifunkBremen/yanic
 ### Install
 
 ```sh
-cp /opt/go/src/github.com/FreifunkBremen/yanic/contrib/init/linux-systemd/yanic.service /lib/systemd/system/yanic.service
+cp /opt/go/src/github.com/FreifunkBremen/yanic/tree/master/contrib/init/linux-systemd/yanic.service /lib/systemd/system/yanic.service
 systemctl daemon-reload
 ```
 
@@ -53,5 +53,5 @@ go get -v -u github.com/FreifunkBremen/yanic
 ```
 Then update the config file, for example look at the diff with the new example:
 ```sh
-diff /opt/go/src/github.com/FreifunkBremen/yanic/config_example.toml /etc/yanic.conf
+diff /opt/go/src/github.com/FreifunkBremen/yanic/tree/master/config_example.toml /etc/yanic.conf
 ```

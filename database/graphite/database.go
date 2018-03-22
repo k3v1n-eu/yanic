@@ -4,7 +4,7 @@ import (
 	"log"
 	"sync"
 
-	"github.com/FreifunkBremen/yanic/database"
+	"github.com/FreifunkBremen/yanic/tree/master/database"
 	"github.com/fgrosse/graphigo"
 )
 

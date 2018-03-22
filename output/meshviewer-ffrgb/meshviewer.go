@@ -5,8 +5,8 @@ import (
 	"log"
 	"strings"
 
-	"github.com/FreifunkBremen/yanic/lib/jsontime"
-	"github.com/FreifunkBremen/yanic/runtime"
+	"github.com/FreifunkBremen/yanic/tree/master/lib/jsontime"
+	"github.com/FreifunkBremen/yanic/tree/master/runtime"
 )
 
 func transform(nodes *runtime.Nodes) *Meshviewer {

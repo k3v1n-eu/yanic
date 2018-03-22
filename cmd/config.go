@@ -5,10 +5,10 @@ import (
 	"io/ioutil"
 	"os"
 
-	"github.com/FreifunkBremen/yanic/database"
-	"github.com/FreifunkBremen/yanic/respond"
-	"github.com/FreifunkBremen/yanic/runtime"
-	"github.com/FreifunkBremen/yanic/webserver"
+	"github.com/FreifunkBremen/yanic/tree/master/database"
+	"github.com/FreifunkBremen/yanic/tree/master/respond"
+	"github.com/FreifunkBremen/yanic/tree/master/runtime"
+	"github.com/FreifunkBremen/yanic/tree/master/webserver"
 	"github.com/naoina/toml"
 )
 

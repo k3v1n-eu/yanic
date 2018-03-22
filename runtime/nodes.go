@@ -7,8 +7,8 @@ import (
 	"sync"
 	"time"
 
-	"github.com/FreifunkBremen/yanic/data"
-	"github.com/FreifunkBremen/yanic/lib/jsontime"
+	"github.com/FreifunkBremen/yanic/tree/master/data"
+	"github.com/FreifunkBremen/yanic/tree/master/lib/jsontime"
 )
 
 // Nodes struct: cache DB of Node's structs

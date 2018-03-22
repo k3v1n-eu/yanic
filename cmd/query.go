@@ -5,8 +5,8 @@ import (
 	"net"
 	"time"
 
-	"github.com/FreifunkBremen/yanic/respond"
-	"github.com/FreifunkBremen/yanic/runtime"
+	"github.com/FreifunkBremen/yanic/tree/master/respond"
+	"github.com/FreifunkBremen/yanic/tree/master/runtime"
 	"github.com/spf13/cobra"
 )
 

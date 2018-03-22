@@ -32,7 +32,7 @@ welcome. Just fork this project and create another subpackage within the folder
 
 ### Configure Yanic
 ```sh
-cp /opt/go/src/github.com/FreifunkBremen/yanic/config_example.toml /etc/yanic.conf
+cp /opt/go/src/github.com/FreifunkBremen/yanic/tree/master/config_example.toml /etc/yanic.conf
 ```
 For an easy startup you only need to edit the `interfaces` in section
 `[respondd]` in file `/etc/yanic.conf`.  
@@ -60,7 +60,7 @@ the same directory as the `dataPath`. Change the path in the section
 
 ### Service
 ```sh
-cp /opt/go/src/github.com/FreifunkBremen/yanic/contrib/init/linux-systemd/yanic.service /lib/systemd/system/yanic.service
+cp /opt/go/src/github.com/FreifunkBremen/yanic/tree/master/contrib/init/linux-systemd/yanic.service /lib/systemd/system/yanic.service
 systemctl daemon-reload
 systemctl start yanic
 systemctl enable yanic
@@ -74,5 +74,5 @@ go get -v -u github.com/FreifunkBremen/yanic
 ```
 Then update the config file, for example look at the diff with the new example:
 ```sh
-diff /opt/go/src/github.com/FreifunkBremen/yanic/config_example.toml /etc/yanic.conf
+diff /opt/go/src/github.com/FreifunkBremen/yanic/tree/master/config_example.toml /etc/yanic.conf
 ```

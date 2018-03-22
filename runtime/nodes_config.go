@@ -1,6 +1,6 @@
 package runtime
 
-import "github.com/FreifunkBremen/yanic/lib/duration"
+import "github.com/FreifunkBremen/yanic/tree/master/lib/duration"
 
 type NodesConfig struct {
 	StatePath    string            `toml:"state_path"`

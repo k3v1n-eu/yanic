@@ -3,7 +3,7 @@ package graphite
 import (
 	"time"
 
-	"github.com/FreifunkBremen/yanic/runtime"
+	"github.com/FreifunkBremen/yanic/tree/master/runtime"
 )
 
 // InsertLink stores per link statistics

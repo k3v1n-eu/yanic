@@ -3,7 +3,7 @@ package runtime
 import (
 	"testing"
 
-	"github.com/FreifunkBremen/yanic/data"
+	"github.com/FreifunkBremen/yanic/tree/master/data"
 	"github.com/stretchr/testify/assert"
 )
 

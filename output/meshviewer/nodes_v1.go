@@ -1,8 +1,8 @@
 package meshviewer
 
 import (
-	"github.com/FreifunkBremen/yanic/lib/jsontime"
-	"github.com/FreifunkBremen/yanic/runtime"
+	"github.com/FreifunkBremen/yanic/tree/master/lib/jsontime"
+	"github.com/FreifunkBremen/yanic/tree/master/runtime"
 )
 
 // NodesV1 struct, to support legacy meshviewer (which are in master branch)

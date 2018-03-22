@@ -8,8 +8,8 @@ import (
 	"github.com/influxdata/influxdb/client/v2"
 	"github.com/stretchr/testify/assert"
 
-	"github.com/FreifunkBremen/yanic/data"
-	"github.com/FreifunkBremen/yanic/runtime"
+	"github.com/FreifunkBremen/yanic/tree/master/data"
+	"github.com/FreifunkBremen/yanic/tree/master/runtime"
 )
 
 const TEST_SITE = "ffxx"

@@ -3,7 +3,7 @@ package database
 import (
 	"time"
 
-	"github.com/FreifunkBremen/yanic/runtime"
+	"github.com/FreifunkBremen/yanic/tree/master/runtime"
 )
 
 // Connection interface to use for implementation in e.g. influxdb

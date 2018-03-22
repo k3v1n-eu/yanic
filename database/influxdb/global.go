@@ -3,7 +3,7 @@ package influxdb
 import (
 	"time"
 
-	"github.com/FreifunkBremen/yanic/runtime"
+	"github.com/FreifunkBremen/yanic/tree/master/runtime"
 	"github.com/influxdata/influxdb/models"
 )
 

@@ -25,7 +25,7 @@ In the first step Yanic sends a multicast message to the group `ff02:0:0:0:0:0:2
 Recently seen nodes that does not reply are requested via a unicast message.
 
 ## Documentation
-Take a look at the [git](https://github.com/FreifunkBremen/yanic/blob/master/SUMMARY.md) or [Gitbook](https://freifunkbremen.gitbooks.io/yanic/content/)
+Take a look at the [git](https://github.com/FreifunkBremen/yanic/tree/master/blob/master/SUMMARY.md) or [Gitbook](https://freifunkbremen.gitbooks.io/yanic/content/)
 
 
 ## Configuration
@@ -106,7 +106,7 @@ Flags:
 * **Freifunk Nord** uses [hopglass](https://github.com/hopglass/hopglass) (commit 587740a) as frontend:  https://mesh.freifunknord.de/
 * **Freifunk Kiel** uses [Meshviewer](https://github.com/ffrgb/meshviewer/) as frontend: https://map.freifunk.in-kiel.de/
 
-Do you know someone else using Yanic? Create a [pull request](https://github.com/FreifunkBremen/yanic/issues/new?template=community.md&title=Mention+community+$name)!
+Do you know someone else using Yanic? Create a [pull request](https://github.com/FreifunkBremen/yanic/tree/master/issues/new?template=community.md&title=Mention+community+$name)!
 
 ## Related projects
 

@@ -5,8 +5,8 @@ import (
 	"log"
 	"time"
 
-	"github.com/FreifunkBremen/yanic/database"
-	"github.com/FreifunkBremen/yanic/runtime"
+	"github.com/FreifunkBremen/yanic/tree/master/database"
+	"github.com/FreifunkBremen/yanic/tree/master/runtime"
 )
 
 type Connection struct {

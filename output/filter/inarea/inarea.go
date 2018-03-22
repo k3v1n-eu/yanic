@@ -3,8 +3,8 @@ package inarea
 import (
 	"errors"
 
-	"github.com/FreifunkBremen/yanic/output/filter"
-	"github.com/FreifunkBremen/yanic/runtime"
+	"github.com/FreifunkBremen/yanic/tree/master/output/filter"
+	"github.com/FreifunkBremen/yanic/tree/master/runtime"
 )
 
 type area struct {

@@ -4,7 +4,7 @@ import (
 	"sync"
 	"time"
 
-	"github.com/FreifunkBremen/yanic/database"
+	"github.com/FreifunkBremen/yanic/tree/master/database"
 )
 
 var Conn database.Connection
